@@ -1,0 +1,40 @@
+/*
+** This is the CSS for the web pages
+*/
+
+#logo {
+    background-color: teal;
+    color: white;
+    float: left;
+    position: absolute;
+    padding: 10px;
+    top: -10px;
+}
+
+.navbar-nav {
+    position: absolute;
+    float: right;
+    right: 10px;
+    color: tomato;
+}
+
+.container {
+    margin:8% 5% 8% 3%;
+    background-color: white;
+}
+
+h1 {
+    color: teal;
+}
+
+#fixed-pic {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+#fixed-pic img {
+    height: 100%;
+    max-width: 350px;
+    padding: 10px;
+    float: left;
+  }
