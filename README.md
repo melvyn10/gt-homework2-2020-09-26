@@ -6,7 +6,7 @@ The page start on the index page and the menu will link to contact page and port
 
 
 The mobile responsive webpage consists of the following:
-	-Two stylesheet (CSS)
+	-Two stylesheets (CSS)
 		-One created specifically for the webpages
 		-One from the Bootstrap CDN, version 4.1.3
 	-Three Java scripts
@@ -38,6 +38,8 @@ The following were implemented:
 -Added the correct link for the search engine optimization
 
 -Added appropriate comments to the style file to ensure legibility
+
+-This code has been validated by W3C Markup Validation Service and error/warnings are corrected or understood.
 
 Installation instruction
 
