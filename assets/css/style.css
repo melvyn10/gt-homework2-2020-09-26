@@ -2,6 +2,9 @@
 ** This is the CSS for the web pages
 */
 
+/*
+** Start of styles for the navigation bar, including the logo
+*/
 #logo {
     background-color: teal;
     color: white;
@@ -11,11 +14,18 @@
     top: -10px;
 }
 
+.navbar-brand {
+  height: auto;
+}
+
 .navbar-nav {
     position: absolute;
     float: right;
     right: 10px;
 }
+/*
+** End of styles for the navigation bar, including the logo
+*/
 
 .container {
     margin:8% 5% 8% 3%;
@@ -40,11 +50,24 @@ h1 {
   }
 
   /*
-  ** css styles only on contact
+  ** Sticky footer
   */
+.footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  background-color: lightgray;
+}
 
-  /* form input boxes */
-  input[type=text], select, textarea {
+/*
+** css styles only on contact
+*/
+
+/* form input boxes */
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -66,7 +89,7 @@ input[type=submit] {
   }
 
   /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+  input[type=submit]:hover {
     background-color: #45a049;
   }
   
@@ -93,9 +116,13 @@ input[type=submit]:hover {
 
 /* Style the counter cards */
 .card {
-  padding: 16px;
   text-align: center;
   background-color: grey;
+  width: 350px;
+  height: 350px; 
+}
+
+.card img {
   width: 350px;
   height: 350px; 
 }

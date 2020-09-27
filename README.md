@@ -4,19 +4,40 @@ Mobile Responsive Pages
 This set of html pages creates a mobile responsive webpage that resizes and changes content pending screen size.
 The page start on the index page and the menu will link to contact page and portfolio page.
 
-The Horiseon Marketing page consist of an html and a css file. In order to make the html and css file to be more maintainable. The following were implemented:
--refactored the code to include semantic elements
+
+The mobile responsive webpage consists of the following:
+	-Two stylesheet (CSS)
+		-One created specifically for the webpages
+		-One from the Bootstrap CDN, version 4.1.3
+	-Three Java scripts
+		-One from Jquery.com version, 3.3.1
+		-One from Cloudflare.com version, 1.14.3
+		-One from Bootstrp CDN, version 4.1.3
+	-Three html files were created for this webpage
+		-index.html
+			This is the main page which contains information about the author and links to
+			two other pages, 
+		-contact.html
+			This page consists of a form allowing the user to enter their name, email address, 
+			comments. There is a submit button, but at this time it does not send the 
+			information anywhere. Additionally, there are links back to the contact form, 
+			index page, and portfolio
+		-portfolio.html
+			This page consists of a portfolio of adorable animal pictures. The rows and columns 
+			of the images will adjust as the screen size/window is adjusted. Additionally, there 
+			are links back to the contact form, index page, and portfolio
+
+The following were implemented:
+-the code to include semantic elements
 	-Header
 	-Figure
+	-Figcaption
 	-Section
-	-Aside
-	-Footer
+	
 -Added accesibility for images using the alt option
 -Added the correct link for the search engine optimization
 
--Significant restructuring of the classes were done, this consolidated many classes together, which simplifide the code
 -Added appropriate comments to the style file to ensure legibility
--Change class names to describe what the class is for
 
 Installation instruction
 
