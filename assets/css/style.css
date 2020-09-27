@@ -29,6 +29,8 @@ h1 {
     position: absolute;
     float: right;
     right: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
 
 }
 /*
